@@ -1,0 +1,10 @@
+*{
+    direction:rtl;
+    padding-right : 5px ;
+    list-style-type: none;
+    background-color: white;
+
+}
+a{
+    padding-right:0px ;
+}
