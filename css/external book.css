@@ -1,0 +1,15 @@
+*{
+    direction:rtl;
+    padding-right : 5px ;
+    list-style-type: none;
+    background-color: white;
+}
+a{
+    padding-right:0px ;
+}
+p{
+    font-size : 24px ;
+    margin : 0px ;
+    margin-top : 24px ;
+    margin-bottom : 24px ;
+}
