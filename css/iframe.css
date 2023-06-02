@@ -1,0 +1,22 @@
+*{
+    direction:rtl;
+    padding-right : 5px ;
+    list-style-type: none;
+}
+body{
+    background-image: url("../images/iframe.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+button{
+    background-color: #dfdcd3;
+    width: 450px;
+    margin: 5px;
+}
+a{
+    padding-right:0px ;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
