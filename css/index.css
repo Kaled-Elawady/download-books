@@ -25,15 +25,19 @@ a{
 }
 iframe{
     width: 49% ;
-    height: 800px ;
+    height: 1000px ;
 	padding:3px;
 }
-
-#eb{
+@media screen and (min-width:0px) and (max-width:940px){
+iframe{
+    width: 100% ;
+ }
+}
+#sb{
     
     direction: ltr;
 }
-#sb{
+#eb{
     float: right;
 }
 #facebook{
