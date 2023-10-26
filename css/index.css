@@ -3,22 +3,21 @@
     margin: 0px;
 }
 body{
-	background-image:url("../images/bg.jpg");
-	background-attachment:fixed;
-	background-size: cover;
+	background-color: black;
 }
-#all_logo{
-padding:15px;
+#links{
+    display: inline;
+    float: right;
+    padding: 5px;
 }
-#my_name {
-    font-size: 50px;
-    float : left;
-    color : white
+#facebook{
+    height: 85px;
+}
+#whatsapp{
+    height: 90px;
 }
 #logo{
-    direction: rtl;
-    list-style-type: none;
-    
+    height: 100px;
 }
 a{
     text-decoration: none;
@@ -26,23 +25,21 @@ a{
 iframe{
     width: 49% ;
     height: 1000px ;
-	padding:3px;
-}
-@media screen and (min-width:0px) and (max-width:1000px){
-iframe{
-    width: 100% ;
- }
 }
 #sb{
-    
-    direction: ltr;
+   height: 1250px;
 }
 #eb{
     float: right;
 }
-#facebook{
-    height: 60px ;
-}
-#whatsapp{
-    height: 65px ;
+
+@media screen and (min-width:0px) and (max-width:1000px){
+iframe{
+    width: 98%;
+    display: block;
+    margin: 15px auto;
+ }
+#eb{
+    float:unset ;
+ }
 }

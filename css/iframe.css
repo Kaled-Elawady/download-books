@@ -1,13 +1,10 @@
 *{
     direction:rtl;
     padding-right : 5px ;
-    list-style-type: none;
 }
 
 body{
-    background-image: url("../images/iframe.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: black;
 }
 
 h2{
@@ -21,24 +18,19 @@ h2{
     margin-bottom: 20px;
       
 }
-
-li {
-    display:block;
-    margin-right:10px;
+#container{
+    display: block;
     text-align: center;
 }
 
-a{
-    text-decoration: none;
-}
 
 button {
+    
     width: 450px;
-    margin: 5px;
-    background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%);
-    margin: 10px;
     padding: 15px 45px;
-    text-align: center;
+    margin: 10px;
+
+    background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%);
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
